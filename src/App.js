@@ -10,6 +10,8 @@ class App extends Component {
     this.state = { operations: [] }
   }
 
+
+
   calculateOperations = () => {
     let result = this.state.operations.join('')
     if (result) {
@@ -20,6 +22,8 @@ class App extends Component {
       })
     }
   }
+
+
   handleClick = e => {
     const value = e.target.getAttribute('data-value')
     switch (value) {
