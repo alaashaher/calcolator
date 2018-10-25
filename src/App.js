@@ -4,6 +4,7 @@ import math from 'mathjs'
 import Button from './components/Button';
 import Buttons from './components/Buttons';
 import Display from './components/Display';
+
 class App extends Component {
   constructor() {
     super()
